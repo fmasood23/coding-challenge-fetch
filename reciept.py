@@ -60,7 +60,7 @@ def create_obj(data):
             time = data["purchaseTime"]
             hour = int (time.split(":")[0])
             minute = int (time.split(":")[1])
-            if((hour>=14 and minute>=0 and hour<16) or (hour==16 and minute==0) or (hour<16 and minute<59 and hour>=14)):
+            if((hour>=14 and minute>=0 and hour<16) or (hour==16 and minute==0)):
                 new_r.setPoints(10)
         elif i == "items":
             count = 0
