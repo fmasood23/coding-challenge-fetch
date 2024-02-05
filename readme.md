@@ -1,10 +1,10 @@
 This application is built using Python Flask. 
 
-###Dependencies:
+### Dependencies:
 1. System must have Python installed
 2. System must be able to run Python
 
-###Steps to running the application:
+### Steps to running the application:
 1. Open and run the following steps in a terminal.
 2. Python Flask must be installed. To install it, run ```pip install flask```
 3. Create a virtual environment using the following command ```python -m venv my_env```
