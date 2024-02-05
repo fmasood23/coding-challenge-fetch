@@ -68,7 +68,7 @@ def create_obj(data):
                 count+=1
                 name = j["shortDescription"].strip()
                 price = float (j["price"])
-                if len(name) %3 == 0 and len(name)!=0:
+                if len(name) %3 == 0:
                     value = price * 0.2
                     rounded = math.ceil(value)
                     new_r.setPoints(rounded)
